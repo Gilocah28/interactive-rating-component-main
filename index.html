@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  
+</head>
+<body>
+
+  <!-- Rating state start -->
+
+  <div class="rateStart_form form">
+    <img src="/images/icon-star.svg" alt="Stae rate" class="star_rate">
+
+    <h2 class="title_form1">How did we do?</h2>
+
+    <p class="paragraph">
+      Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
+
+    <ul>
+      <li><button class="btn_Number" id="btn">1</button></li>
+      <li><button class="btn_Number" id="btn">2</button></li>
+      <li><button class="btn_Number" id="btn">3</button></li>
+      <li><button class="btn_Number" id="btn">4</button></li>
+      <li><button class="btn_Number" id="btn">5</button></li>
+    </ul>
+
+    <div class="btn_container">
+      <button class="submitBtn" id="btn_submit">Submit</button>
+    </div>
+  </div>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <div class="rateResult form hidden">
+    <img src="/images/illustration-thank-you.svg" alt="Rate Images">
+
+    <div class="result">
+      <p class="rate_Text">
+      You selected  <span id="number_rate">0</span>  out of 5
+    </p>
+    </div>
+
+    <h2 class="title_form1">Thank you!</h2>
+
+    <p class="paragraph1">
+      We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!
+    </p>
+
+
+    <div class="btn_container">
+      <button class="submitBtn" id="submit_again">Rate Again</button>
+    </div>
+  </div>
+  <!-- Thank you state end -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Gilocah28" target="_blank">Gibermar P. Regalado</a>.
+  </div>
+</body>
+
+  <script src="/script.js"></script>
+</html>
