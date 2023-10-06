@@ -15,6 +15,7 @@ submitBtn.addEventListener("click", () => {
 sumitAgain.addEventListener("click", () => {
   thanksContainer.classList.add("hidden")
   mainContiner.style.display = "block"
+  rating.innerHTML = "0"
 })
 
 
@@ -22,6 +23,7 @@ sumitAgain.addEventListener("click", () => {
 ratesNumber.forEach((rate) => {
   rate.addEventListener("click", () => {
     rating.innerHTML = rate.innerHTML;
+    
   })
 })
 
