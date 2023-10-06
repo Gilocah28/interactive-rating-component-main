@@ -23,7 +23,6 @@ sumitAgain.addEventListener("click", () => {
 ratesNumber.forEach((rate) => {
   rate.addEventListener("click", () => {
     rating.innerHTML = rate.innerHTML;
-    
   })
 })
 
